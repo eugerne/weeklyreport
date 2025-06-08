@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.box {
+  padding-block: 50px;
+  background: #10c9c3;
+}
+
+.box__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* column-gap: 50px; */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.number {
+  font-size: 20px;
+}
+.text {
+  font-size: 20px;
+}
+
+i.fa {
+  font-size: 50px;
+}
