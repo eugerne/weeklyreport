@@ -1,0 +1,41 @@
+* {
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: bold;  
+  color: aliceblue;
+}
+
+.border-box {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 15px;
+  border: 5px solid #000;
+  width: 250px;
+  height: 250px;
+  background-color: #df3;
+}
+
+.content-box {
+  box-sizing: content-box;
+  margin: 10px;
+  padding: 15px;
+  border: 5px solid #000;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(194, 124, 19);
+}
+
+.box_inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  box-sizing: content-box;
+  margin: 5px;
+  padding: 15px;
+  border: 5px solid #000;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(88, 34, 206);
+}

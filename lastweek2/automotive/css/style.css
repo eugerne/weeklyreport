@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  transition: 0.3s;
+}
+
+.header {
+  width: 100%;
+  max-width: 1920px;
+  height: 680px;
+  background-image: url("../img/bg.jpg");
+  padding: 40px 190px 180px;
+}
+
+.header::before {
+  width: 100%;
+  background-color: #dd2211;
+  opacity: .87;
+}
+
+.main {
+  width: 100%;
+  max-width: 1920px;
+  background-color: #efefef;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  list-style: none;
+}
+
+.menu_nav li a {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px 15px;
+  border-radius: 5px;
+}
+
+.menu_nav li a:hover {
+  background: #130e27;
+}
+
+.title {
+  max-width: 550px;
+  width: 100%;
+}
+
+.title h1 {
+  margin: 100px 0 50px;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: .9;
+}
+
+.title h1 span {
+  color: #130e27;
+}
+
+.title p {
+  width: 100%;
+  max-width: 500px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: serif;
+}
+
+.ourservice {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding-block: 50px;
+}
+
+.ourservice h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #130e27;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+.ourservice h2 span {
+  color: #c62314;
+}
+
+.ourservice_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box_item {
+  width: 170px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+  text-align: center;
+}
+
+.box_item i.fa {
+  font-size: 150px;
+  color: #130e27;
+}
+
+.box_item p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: serif;
+  color: #161616;
+}
+
+.ourstory {
+  width: 100%;
+  background: #130e27;
+  padding: 34px 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ourstory p {
+  width: 600px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: serif;
+}
+
+.ourstory a {
+  padding: 15px 65px;
+  background-color: #c62314;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.ourstory a:hover {
+  background-color: #91190e;
+}
+
+.pricing {
+  width: 100%;
+  padding: 50px 190px 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+}
+
+.pricing h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #130e27;
+  text-transform: uppercase;
+}
+
+.pricing_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px; 
+}
+
+.pricing_box_item {
+  width: 340px;
+  height: 460px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 35px 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.pricing_box_item p {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: serif;
+  color: #161616;
+  text-align: center;
+}
+
+.pricing_box_item h3 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #c62314;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pricing_box_item a {
+  padding: 10px 60px;
+  background-color: #130e27;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pricing_box_item a:hover {
+  background-color: #c62314;
+}
+
+.footer {
+  width: 100%;
+  background-color: #130e27;
+  padding: 80px 190px;
+}
+
+.footer_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_box p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: serif;
+  text-align: center;
+}
+
+.footer_box a {
+  text-decoration: none;
+  color: #c62314;
+}

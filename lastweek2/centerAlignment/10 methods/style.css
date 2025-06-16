@@ -1,0 +1,15 @@
+img {
+  align-self: center;
+  /* display: block;
+  margin: 0 auto; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* text-align: center; */
+  background: tomato;
+  width: 1000px;
+  margin: 100px auto 0;
+}

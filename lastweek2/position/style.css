@@ -1,0 +1,61 @@
+/* 
+  position: static, relative, absolute, fixed, sticky
+  top'
+  left
+  right
+  bottom
+  z-index
+*/
+
+.layer1 {
+  /* Относительное позиционирование */
+  position: relative;
+  /* top: 20px; */
+  /* margin-top: 20px; */
+  /* margin-inline: 10px; лучше писать так */
+  background-color: #ddd;
+  height: 200px;
+}
+
+.layer2 {
+  /* Абсолютное позиционирование */
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  translate: -50% -50%;
+}
+
+.parent {
+  background-color: #5faff5;
+  padding: 10px;
+  height: 100vh;
+  position: relative;
+}
+
+.child {
+  padding: 10px;
+  width: 100px;
+}
+
+.child1 {
+  background-color: #3ed277;
+  position: absolute;
+  /* left: 15px; */
+  margin-left: 12px;
+  top: 30px;
+}
+
+.child2 {
+  background-color: #dc9f3c;
+  position: absolute;
+  z-index: 1;
+  margin-left: 6px;
+  top: 55px;
+}
+
+.child3 {
+  background-color: #b14aaa;
+  position: absolute;
+  top: 80px;
+  z-index: 2;
+}

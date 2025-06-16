@@ -1,0 +1,28 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  padding-left: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+[myTitle] {
+  cursor: pointer;
+}
+
+[myTitle]::after {
+  content: "";
+  transition: 0.3s;
+}
+
+[myTitle]:hover::after {
+  width: 550px;
+  display: block;
+  border-radius: 10px;
+  content: attr(myTitle);
+  background-color: #224f8e;
+  padding: 10px;
+  z-index: 100;
+}

@@ -1,0 +1,19 @@
+p {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  background-color: #999;
+  /* overflow: auto; - добавляет полосу прокрутки */
+}
+
+span {
+  display: inline-block;
+  background-color: rgb(79, 101, 176);
+  /* opacity: 0.7; */
+  margin: 10px;
+  padding: 10px;
+  border: 1px dashed #000;
+}
+
+/* Выстота элемента зависить от его содержимого, так как по умолчанию свойство box-sizing имеет значние content-box */

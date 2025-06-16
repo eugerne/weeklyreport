@@ -1,0 +1,23 @@
+:root {
+  --colNums: 4;
+}
+
+.container {
+  position: relative;
+  height: 1000px;
+  background-color: #eee;
+  border: 3px solid tomato;
+}
+
+.elem {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border: 3px solid green;
+  background: #555;
+  width: calc(100% / var(--colNums));
+  height: calc(100% - 500px);
+}

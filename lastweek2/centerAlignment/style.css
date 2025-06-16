@@ -1,0 +1,119 @@
+.parent {
+  width: 300px;
+  aspect-ratio: 1;
+  background: #222;
+}
+
+.child {
+  background: orange;
+  width: 100px;
+  aspect-ratio: 1;
+  
+}
+
+
+/* Метод 1 */
+/* .p1 {
+  position: relative;
+}
+
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* Метод 2 */
+.p1 {
+  position: relative;
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* Метод 3 */
+.p1 {
+  position: relative;
+}
+
+.c1 {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+
+/* Метод 4 */
+.p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c1 {
+  align-self: center;
+}
+
+/* Метод 5 */
+.p1 {
+  display: flex;
+}
+
+.c1 {
+  margin: auto;
+}
+
+/* Метод 6 */
+.p1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.c1 {
+  
+}
+
+/* Метод 7 */
+.p1 {
+  display: grid;
+  place-items: center;
+}
+
+.c1 {
+  
+}
+
+/* Метод 8 */
+.p1 {
+  display: grid;
+}
+
+.c1 {
+  align-self: center;
+  justify-self: center;
+}
+
+/* Метод 9 */
+.p1 {
+  display: grid;
+}
+
+.c1 {
+  place-self: center;
+}
+
+/* Метод 10 */
+.p1 {
+  display: grid;
+}
+
+.c1 {
+  margin: auto;
+}
